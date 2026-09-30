@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Teaching Stuff",
+    "section": "",
+    "text": "At the Department of Industrial Engineering of the University of Trento, I am teaching master courses (in English) and undergraduate courses (in Italian). Most of the teaching material used in these courses is available here."
+  },
+  {
+    "objectID": "index.html#design-of-precision-systems-dps",
+    "href": "index.html#design-of-precision-systems-dps",
+    "title": "Teaching Stuff",
+    "section": "Design of Precision Systems (DPS) 🇬🇧",
+    "text": "Design of Precision Systems (DPS) 🇬🇧\nCourse for the Master Degree in Mechatronics Engineering, given in English\n\nLesson on K-Fold Cross Validation (also as a document)"
+  },
+  {
+    "objectID": "index.html#analisi-dei-dati-e-statistica-adas",
+    "href": "index.html#analisi-dei-dati-e-statistica-adas",
+    "title": "Teaching Stuff",
+    "section": "Analisi dei Dati e Statistica (ADAS) 🇮🇹",
+    "text": "Analisi dei Dati e Statistica (ADAS) 🇮🇹\nCorso per la Laurea triennale in Ingegneria Industriale, tenuto in italiano\n\nIndice con tutte le slide del corso\nEsperimento virtuale: taratura di una bilancia a due piatti\n\n\n\n\n\n\n\nImportantContinuous updates!\n\n\n\nPlease note that the material is constantly updated. If you are interested in a specific topic, please check the last update (i.e., refresh your browser!)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "These pages present supporting material for lessons given by Paolo Bosetti, Associate Professor at Department of Industrial Engineering, University of Trento.\n\nContact: paolo [dot] bosetti [at] unitn [dot] it\nGitHub: https://github.com/pbosetti"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Example Data",
+    "section": "",
+    "text": "During the courses, example data files are used to illustrate different concepts. These files are available here for download or for direct usage."
+  },
+  {
+    "objectID": "data.html#loading-the-data-files",
+    "href": "data.html#loading-the-data-files",
+    "title": "Example Data",
+    "section": "Loading the data files",
+    "text": "Loading the data files\nEach data file can be separately loaded from the URLs reported down below. Nonetheless, you can also exploit the ability of R read.* functions to open a file directly from its URL. To do so, it can be useful to use the adas.utils::examples_url() function that builds the URL based on the file name:\n\nexamples_url(\"timeseries.csv\")\n\n[1] \"https://pbosetti.github.io/teaching_site/data/timeseries.csv\"\n\n\nThen, just pipe it with the proper file-reading function, e.g.:\n\nexamples_url(\"timeseries.csv\") %&gt;% read_csv()\n\nor\n\nexamples_url(\"3dprint.dat\") %&gt;% read_table(comment=\"#\")"
+  },
+  {
+    "objectID": "data.html#list-of-csv-files",
+    "href": "data.html#list-of-csv-files",
+    "title": "Example Data",
+    "section": "List of CSV files",
+    "text": "List of CSV files\n\n\n\nduplicate.csv\nkfold.csv\nmicrometer.csv\nprod_defects.csv\nregression.csv\nsurface_scan.csv\ntaratura.csv\ntemperature-anomaly.csv\ntimeseries.csv\ntrain.csv"
+  },
+  {
+    "objectID": "data.html#list-of-dat-files",
+    "href": "data.html#list-of-dat-files",
+    "title": "Example Data",
+    "section": "List of DAT files",
+    "text": "List of DAT files\n\n\n\n3dprint.dat\nanova.dat\nbattery.dat\nbearing.dat\nbesterfield_1.dat\nbesterfield_2.dat\nbesterfield_3.dat\nbesterfield_4.dat\nbesterfield_5.dat\ncotton.dat\ncutting.dat\ndiet.dat\ndrill.dat\nhardness.dat\nhardness2.dat\nmortar.dat\np_data.dat\nrf_generator.dat\nsoap_bottles.dat\ntwosample.dat"
+  }
+]
