@@ -1,0 +1,89 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!_*.qmd"
+
+website:
+  title: "Paolo Bosetti"
+  reader-mode: true
+  # google-analytics: "G-KV5S6RSHJ3"
+  # cookie-consent:
+  #   type: express
+  #   style: simple
+  #   palette: light
+  navbar:
+    left:
+      - text: ADAS
+        menu:
+          - href: /teaching_site/slides/ADAS
+            text: Contenuti
+          - href: /teaching_site/slides/ADAS/0-intro.html
+            text: Intro
+          - href: /teaching_site/slides/ADAS/1-statistica.html
+            text: Statistica
+          - href: /teaching_site/slides/ADAS/2-R-intro.html
+            text: Linguaggio R
+          - href: /teaching_site/slides/ADAS/3-regressione.html
+            text: Regressione
+          - href: /teaching_site/slides/ADAS/4-bootstrap.html
+            text: Bootstrap
+          - href: /teaching_site/slides/ADAS/5-misura.html
+            text: Misura
+          - href: /teaching_site/slides/ADAS/6-DoE.html
+            text: Design of Experiments
+          - href: /teaching_site/slides/ADAS/7-serie_temporali.html
+            text: Serie temporali
+          - href: /teaching_site/slides/ADAS/8-strumenti.html
+            text: Strumenti di misura
+      # - text: DESAnED
+      #   menu:
+      #     - href: desaned.qmd
+      #       text: Table of Contents
+      #     - href: /desaned/1-statistics.html
+      #       text: Statistics
+      #     - href: /desaned/2-R-intro.html
+      #       text: Intro to R language
+      #     - href: /desaned/3-regression.html
+      #       text: Regression
+      #     - href: /desaned/4-kfold.html
+      #       text: K-Fold validation
+      #     - href: /desaned/5-DoE.html
+      #       text: Design of Experiments
+      # - various.qmd
+      - data.qmd
+      - text: "Blog"
+        href: https://paolobosetti.quarto.pub/blog/index.html
+      - about.qmd
+    right:
+      - href: https://github.com/pbosetti
+        text: "My GitHub"
+        icon: github
+  page-footer:
+    background: light
+    border: true
+    left: |
+      [![](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.eu.png){height='30'}](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+    right: 
+      - icon: github
+        href: https://github.com/pbosetti
+  repo-actions: [source]
+  
+html-math-method: mathjax
+
+format:
+  html:
+    theme: 
+      - cerulean
+      - styles.scss
+    toc: true
+    smooth-scroll: true
+    citations-hover: true
+    footnotes-hover: true
+    crossrefs-hover: true
+    
+comments:
+  hypothesis: false
+
+
+

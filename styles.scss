@@ -1,0 +1,39 @@
+/*-- scss:defaults --*/
+$myred: #990000;
+$primary: $myred !default;
+$secondary: #009999;
+
+/*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+  /*-- text-shadow: -1px -1px 0 rgba(0, 0, 0, .3); --*/
+  color: $primary;
+}
+
+.navbar {
+  background-image: linear-gradient(to bottom, $primary, darken($primary, 10%));
+}
+
+.quarto-title-meta {
+  font-size: 66%;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.toc-action {
+  font-style: italic;
+}
+
+a.nav-link {
+
+}
+
+a.nav-link.active {
+  text-decoration: underline;
+}

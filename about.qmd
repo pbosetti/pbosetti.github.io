@@ -1,0 +1,16 @@
+---
+title: "About"
+date-modified: "`{r} Sys.time()`"
+date-format: "YYYYMMDD"
+---
+```{r}
+```
+
+:::column-margin
+![](images/PBBW.jpg)
+:::
+
+These pages present supporting material for lessons given by Paolo Bosetti, Associate Professor at [Department of Industrial Engineering, University of Trento](https://dii.unitn.it).
+
+- Contact: paolo [dot] bosetti [at] unitn [dot] it
+- GitHub: [https://github.com/pbosetti](https://github.com/pbosetti)
