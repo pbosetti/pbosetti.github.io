@@ -1,0 +1,77 @@
+---
+title: "Projects and repositories"
+author: "Paolo Bosetti"
+date-modified: "`{r} Sys.time()`"
+date-format: "YYYYMMDD"
+format: html
+---
+
+# MADS - Multi-Agent Distributed System
+
+Currently, my mostive project is [MADS](https://github.com/pbosetti/MADS){target="mads"}, a multi-agent distributed system dor collecting, processing and consuming data in a IoT network of interconnected devices.
+
+* Main repo: [on GitHub](https://github.com/pbosetti/MADS){target="mads"}
+* Guides and documentation: [mads-net.github.io](https://mads-net.github.io){target="mads"}
+* Plugins and other MADS ecosystem components: [MADS-Net repos](https://github.com/mads-net/){target="mads"}
+
+
+# Statistics and data processing
+
+## statisticalc
+
+Header-only C++20 running statistics: a rolling (optionally unlimited) window of observations with descriptive statistics maintained by recursion formulas and inferential statistics (t-test, variance test, and their two-sample counterparts) computed on top of them.
+
+- <https://github.com/pbosetti/statisticalc>{target="_blank_"}
+
+## SlidingDFT
+
+`SlidingDFT` is a small C++20 library that maintains a sliding discrete Fourier transform over a fixed-size window of real-valued samples. Updating the DFT is done in O(1) time, and the library is designed to be used in real-time applications.
+
+- <https://github.com/pbosetti/SlidingDFT>{target="_blank_"}
+
+## kalman
+
+A fast, header-only C++20 library for Kalman filtering — built on Eigen, with zero hand-rolled linear algebra and zero install friction.
+
+Define a state vector, a system model, and a measurement model, and you have a working state estimator in a few dozen lines. The library does the heavy lifting (sigma points, Jacobian propagation, square-root covariance updates) behind a small, strongly-typed interface.
+
+- <https://github.com/pbosetti/kalman>{target="_blank_"}
+
+## goertzel
+
+`goertzel` is a small multi-language package around the Goertzel algorithm. The Goertzel algorithm is a digital signal processing technique for efficiently evaluating individual terms of the discrete Fourier transform (DFT). It is particularly useful for detecting specific frequency components in a signal, making it suitable for applications such as tone detection and spectral analysis.
+
+
+- <https://github.com/pbosetti/goertzel>{target="_blank_"}
+
+## adas.utils (R package)
+
+The goal of adas.utils is to provide some utility functions to be used in the course Analysis of Data and Statistics (ADAS).
+
+- <https://github.com/pbosetti/adas.utils>{target="_blank_"}
+
+
+## mdbplyr (R package)
+
+`mdbplyr` is the MongoDB version of `dbplyr`, the package for interacting with SQL databases. It provides a disciplined dplyr-style interface for read-only analytical MongoDB queries. Queries stay lazy, compile into MongoDB aggregation pipelines, and only execute at `collect()`.
+
+- <https://github.com/pbosetti/mdbplyr>{target="_blank_"}
+
+
+# Arduino
+
+The followings are my Arduino-related repositories, mainly for educational purposes.
+
+- <https://github.com/pbosetti/ArduinoRpc>{target="_blank_"}: Arduino RPC library for Arduino boards and ESP32/ESP8266
+- <https://github.com/pbosetti/ArduinoDriver>{target="_blank_"}: Turn a compatible Arduino board to a USB-class I/O device, plus its companion userland driver. Acquire signals at up to 30 kHz!
+
+
+# Utilities
+
+- <https://github.com/pbosetti/SigGen>{target="_blank_"}: Signal generator class.
+- <https://github.com/pbosetti/Expressionist>{target="_blank_"}: A small C++20 library for parsing and evaluating mathematical expressions within a JSON object.
+- <https://github.com/pbosetti/gv2fsm>{target="_blank_"}: A small C++20 library and CLI tool for converting a Graphviz graph into a finite state machine (FSM) C++ class.
+- <https://github.com/pbosetti/pugg>{target="_blank_"}: A C++ class for implementing plugins that can be loaded at runtime via `dlopen`.
+- <https://github.com/pbosetti/EmbedR>{target="_blank_"}: A small C++20 library for embedding R scripts into a C++ program, with automatic data exchange between the two languages.
+- <https://github.com/pbosetti/cppy3>{target="_blank_"}: Minimalistic library for embedding CPython 3.x into a C++ application. Lightweight, simple, and clean alternative to heavy `boost.python`. No additional dependencies. Cross-platform -- Linux, macOS, and Windows are supported.
+

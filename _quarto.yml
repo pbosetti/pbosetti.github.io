@@ -36,21 +36,22 @@ website:
             text: Serie temporali
           - href: /teaching_site/slides/ADAS/8-strumenti.html
             text: Strumenti di misura
-      # - text: DESAnED
-      #   menu:
-      #     - href: desaned.qmd
-      #       text: Table of Contents
-      #     - href: /desaned/1-statistics.html
-      #       text: Statistics
-      #     - href: /desaned/2-R-intro.html
-      #       text: Intro to R language
-      #     - href: /desaned/3-regression.html
-      #       text: Regression
-      #     - href: /desaned/4-kfold.html
-      #       text: K-Fold validation
-      #     - href: /desaned/5-DoE.html
-      #       text: Design of Experiments
-      # - various.qmd
+      - text: DESAnED
+        menu:
+          - href: /DESANED/index.html
+            text: Table of Contents
+          - href: /DESANED/1-statistics.html
+            text: Statistics
+          - href: /DESANED/2-R-intro.html
+            text: Intro to R language
+          - href: /DESANED/3-regression.html
+            text: Regression
+          - href: /DESANED/4-kfold.html
+            text: K-Fold validation
+          - href: /DESANED/5-DoE.html
+            text: Design of Experiments
+      - text: "Repos"
+        href: repos.qmd
       - data.qmd
       - text: "Blog"
         href: https://paolobosetti.quarto.pub/blog/index.html
