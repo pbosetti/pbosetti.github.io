@@ -1,31 +1,52 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Teaching Stuff",
+    "objectID": "repos.html",
+    "href": "repos.html",
+    "title": "Projects and repositories",
     "section": "",
-    "text": "At the Department of Industrial Engineering of the University of Trento, I am teaching master courses (in English) and undergraduate courses (in Italian). Most of the teaching material used in these courses is available here."
+    "text": "Currently, my mostive project is MADS, a multi-agent distributed system dor collecting, processing and consuming data in a IoT network of interconnected devices.\n\nMain repo: on GitHub\nGuides and documentation: mads-net.github.io\nPlugins and other MADS ecosystem components: MADS-Net repos"
   },
   {
-    "objectID": "index.html#design-of-precision-systems-dps",
-    "href": "index.html#design-of-precision-systems-dps",
-    "title": "Teaching Stuff",
-    "section": "Design of Precision Systems (DPS) 🇬🇧",
-    "text": "Design of Precision Systems (DPS) 🇬🇧\nCourse for the Master Degree in Mechatronics Engineering, given in English\n\nLesson on K-Fold Cross Validation (also as a document)"
+    "objectID": "repos.html#statisticalc",
+    "href": "repos.html#statisticalc",
+    "title": "Projects and repositories",
+    "section": "statisticalc",
+    "text": "statisticalc\nHeader-only C++20 running statistics: a rolling (optionally unlimited) window of observations with descriptive statistics maintained by recursion formulas and inferential statistics (t-test, variance test, and their two-sample counterparts) computed on top of them.\n\nhttps://github.com/pbosetti/statisticalc"
   },
   {
-    "objectID": "index.html#analisi-dei-dati-e-statistica-adas",
-    "href": "index.html#analisi-dei-dati-e-statistica-adas",
-    "title": "Teaching Stuff",
-    "section": "Analisi dei Dati e Statistica (ADAS) 🇮🇹",
-    "text": "Analisi dei Dati e Statistica (ADAS) 🇮🇹\nCorso per la Laurea triennale in Ingegneria Industriale, tenuto in italiano\n\nIndice con tutte le slide del corso\nEsperimento virtuale: taratura di una bilancia a due piatti\n\n\n\n\n\n\n\nImportantContinuous updates!\n\n\n\nPlease note that the material is constantly updated. If you are interested in a specific topic, please check the last update (i.e., refresh your browser!)"
+    "objectID": "repos.html#slidingdft",
+    "href": "repos.html#slidingdft",
+    "title": "Projects and repositories",
+    "section": "SlidingDFT",
+    "text": "SlidingDFT\nSlidingDFT is a small C++20 library that maintains a sliding discrete Fourier transform over a fixed-size window of real-valued samples. Updating the DFT is done in O(1) time, and the library is designed to be used in real-time applications.\n\nhttps://github.com/pbosetti/SlidingDFT"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "These pages present supporting material for lessons given by Paolo Bosetti, Associate Professor at Department of Industrial Engineering, University of Trento.\n\nContact: paolo [dot] bosetti [at] unitn [dot] it\nGitHub: https://github.com/pbosetti"
+    "objectID": "repos.html#kalman",
+    "href": "repos.html#kalman",
+    "title": "Projects and repositories",
+    "section": "kalman",
+    "text": "kalman\nA fast, header-only C++20 library for Kalman filtering — built on Eigen, with zero hand-rolled linear algebra and zero install friction.\nDefine a state vector, a system model, and a measurement model, and you have a working state estimator in a few dozen lines. The library does the heavy lifting (sigma points, Jacobian propagation, square-root covariance updates) behind a small, strongly-typed interface.\n\nhttps://github.com/pbosetti/kalman"
+  },
+  {
+    "objectID": "repos.html#goertzel",
+    "href": "repos.html#goertzel",
+    "title": "Projects and repositories",
+    "section": "goertzel",
+    "text": "goertzel\ngoertzel is a small multi-language package around the Goertzel algorithm. The Goertzel algorithm is a digital signal processing technique for efficiently evaluating individual terms of the discrete Fourier transform (DFT). It is particularly useful for detecting specific frequency components in a signal, making it suitable for applications such as tone detection and spectral analysis.\n\nhttps://github.com/pbosetti/goertzel"
+  },
+  {
+    "objectID": "repos.html#adas.utils-r-package",
+    "href": "repos.html#adas.utils-r-package",
+    "title": "Projects and repositories",
+    "section": "adas.utils (R package)",
+    "text": "adas.utils (R package)\nThe goal of adas.utils is to provide some utility functions to be used in the course Analysis of Data and Statistics (ADAS).\n\nhttps://github.com/pbosetti/adas.utils"
+  },
+  {
+    "objectID": "repos.html#mdbplyr-r-package",
+    "href": "repos.html#mdbplyr-r-package",
+    "title": "Projects and repositories",
+    "section": "mdbplyr (R package)",
+    "text": "mdbplyr (R package)\nmdbplyr is the MongoDB version of dbplyr, the package for interacting with SQL databases. It provides a disciplined dplyr-style interface for read-only analytical MongoDB queries. Queries stay lazy, compile into MongoDB aggregation pipelines, and only execute at collect().\n\nhttps://github.com/pbosetti/mdbplyr"
   },
   {
     "objectID": "data.html",
@@ -54,5 +75,33 @@
     "title": "Example Data",
     "section": "List of DAT files",
     "text": "List of DAT files\n\n\n\n3dprint.dat\nanova.dat\nbattery.dat\nbearing.dat\nbesterfield_1.dat\nbesterfield_2.dat\nbesterfield_3.dat\nbesterfield_4.dat\nbesterfield_5.dat\ncotton.dat\ncutting.dat\ndiet.dat\ndrill.dat\nhardness.dat\nhardness2.dat\nmortar.dat\np_data.dat\nrf_generator.dat\nsoap_bottles.dat\ntwosample.dat"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "These pages present supporting material for lessons given by Paolo Bosetti, Associate Professor at Department of Industrial Engineering, University of Trento.\n\nContact: paolo [dot] bosetti [at] unitn [dot] it\nGitHub: https://github.com/pbosetti"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Teaching Stuff",
+    "section": "",
+    "text": "At the Department of Industrial Engineering of the University of Trento, I am teaching master courses (in English) and undergraduate courses (in Italian). Most of the teaching material used in these courses is available here."
+  },
+  {
+    "objectID": "index.html#design-of-precision-systems-dps",
+    "href": "index.html#design-of-precision-systems-dps",
+    "title": "Teaching Stuff",
+    "section": "Design of Precision Systems (DPS) 🇬🇧",
+    "text": "Design of Precision Systems (DPS) 🇬🇧\nCourse for the Master Degree in Mechatronics Engineering, given in English\n\nLesson on K-Fold Cross Validation (also as a document)"
+  },
+  {
+    "objectID": "index.html#analisi-dei-dati-e-statistica-adas",
+    "href": "index.html#analisi-dei-dati-e-statistica-adas",
+    "title": "Teaching Stuff",
+    "section": "Analisi dei Dati e Statistica (ADAS) 🇮🇹",
+    "text": "Analisi dei Dati e Statistica (ADAS) 🇮🇹\nCorso per la Laurea triennale in Ingegneria Industriale, tenuto in italiano\n\nIndice con tutte le slide del corso\nEsperimento virtuale: taratura di una bilancia a due piatti\n\n\n\n\n\n\n\nImportantContinuous updates!\n\n\n\nPlease note that the material is constantly updated. If you are interested in a specific topic, please check the last update (i.e., refresh your browser!)"
   }
 ]
