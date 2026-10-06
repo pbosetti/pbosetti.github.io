@@ -95,7 +95,7 @@
     "href": "index.html#digital-manufacturing-digman",
     "title": "Teaching Stuff",
     "section": "Digital Manufacturing (DigMan) 🇬🇧",
-    "text": "Digital Manufacturing (DigMan) 🇬🇧\nCourse for the Master Degree in Mechatronics Engineering, given in English\n\nLesson slides: https://pbosetti.github.io/DigMan\nGitHub code repo: https://github.com/pbosetti/cncpp"
+    "text": "Digital Manufacturing (DigMan) 🇬🇧\nCourse for the Master Degree in Mechatronics Engineering, given in English\n\nIntroduction: https://pbosetti.github.io/DigMan/0-intro.html-\nProcesses and machine tools: https://pbosetti.github.io/DigMan/1-machine_tools.html-\nPersonal project: Tool Radius Compensation: https://pbosetti.github.io/DigMan/2-trc.html-\nGitHub code repo: https://github.com/pbosetti/cncpp"
   },
   {
     "objectID": "index.html#design-of-precision-systems-dps",
