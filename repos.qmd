@@ -23,6 +23,12 @@ Header-only C++20 running statistics: a rolling (optionally unlimited) window of
 
 - <https://github.com/pbosetti/statisticalc>{target="_blank_"}
 
+## complot.
+
+Real-time plots driven from the shell to a GUI, loosely inspired by the grammar of graphics. Every plot is its own window (a small GUI process). Fast, portable compact. Can do time series, traces, 2-D and 3-D, histograms. Written in Rust.
+
+- <https://github-com/pbosetti/complot>{target="_blank_"}
+
 ## SlidingDFT
 
 `SlidingDFT` is a small C++20 library that maintains a sliding discrete Fourier transform over a fixed-size window of real-valued samples. Updating the DFT is done in O(1) time, and the library is designed to be used in real-time applications.

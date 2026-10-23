@@ -2,10 +2,9 @@
 title: "Teaching Stuff"
 date-modified: "`{r} Sys.time()`"
 date-format: "YYYYMMDD"
+engine: knitr
 ---
 
-```{r}
-```
 
 At the [Department of Industrial Engineering of the University of Trento](https://dii.unitn.it), I am teaching master courses (in English) and undergraduate courses (in Italian). Most of the teaching material used in these courses is available here.
 
@@ -13,6 +12,14 @@ At the [Department of Industrial Engineering of the University of Trento](https:
 If you are a student of the University of Trento, note that this is NOT the main support site: look at the [Moodle platform](https://didatticaonline.unitn.it/dol/) instead.
 :::
 
+## Digital Manufacturing (DigMan) 🇬🇧
+
+Course for the Master Degree in Mechatronics Engineering, given in English
+
+- [Introduction](https://pbosetti.github.io/DigMan/0-intro.html){target="DigMan"}
+- [Processes and machine tools](https://pbosetti.github.io/DigMan/1-machine_tools.html){target="DigMan"}
+- [Personal project: Tool Radius Compensation](https://pbosetti.github.io/DigMan/2-trc.html){target="DigMan"}
+- GitHub code repo: <https://github.com/pbosetti/cncpp>{target="_blank"}
 
 ## Design of Precision Systems (DPS) 🇬🇧
 
@@ -25,8 +32,7 @@ Course for the Master Degree in Mechatronics Engineering, given in English
 
 Corso per la Laurea triennale in Ingegneria Industriale, tenuto in italiano
 
-- Indice con tutte le [slide del corso](/teaching_site/slides/ADAS/index.html)
-- Esperimento virtuale: [taratura di una bilancia a due piatti](/teaching_site/slides/ADAS/bilancia.html){target="_blank"}
+- Indice con tutte le [slide del corso](/ADAS/index.html)
   
 
 :::callout-important

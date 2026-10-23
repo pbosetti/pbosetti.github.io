@@ -14,28 +14,32 @@ website:
   #   palette: light
   navbar:
     left:
+      - text: "Projects"
+        href: repos.qmd
       - text: ADAS
         menu:
-          - href: /teaching_site/slides/ADAS
+          - href: /ADAS
             text: Contenuti
-          - href: /teaching_site/slides/ADAS/0-intro.html
+          - href: /ADAS/0-intro.html
             text: Intro
-          - href: /teaching_site/slides/ADAS/1-statistica.html
+          - href: /ADAS/1-statistica.html
             text: Statistica
-          - href: /teaching_site/slides/ADAS/2-R-intro.html
+          - href: /ADAS/2-R-intro.html
             text: Linguaggio R
-          - href: /teaching_site/slides/ADAS/3-regressione.html
+          - href: /ADAS/3-regressione.html
             text: Regressione
-          - href: /teaching_site/slides/ADAS/4-bootstrap.html
+          - href: /ADAS/4-bootstrap.html
             text: Bootstrap
-          - href: /teaching_site/slides/ADAS/5-misura.html
+          - href: /ADAS/5-misura.html
             text: Misura
-          - href: /teaching_site/slides/ADAS/6-DoE.html
+          - href: /ADAS/6-DoE.html
             text: Design of Experiments
-          - href: /teaching_site/slides/ADAS/7-serie_temporali.html
+          - href: /ADAS/7-serie_temporali.html
             text: Serie temporali
-          - href: /teaching_site/slides/ADAS/8-strumenti.html
+          - href: /ADAS/8-strumenti.html
             text: Strumenti di misura
+      - text: "DigMan"
+        href: /DigMan/index.html
       - text: DESAnED
         menu:
           - href: /DESANED/index.html
@@ -50,8 +54,6 @@ website:
             text: K-Fold validation
           - href: /DESANED/5-DoE.html
             text: Design of Experiments
-      - text: "Repos"
-        href: repos.qmd
       - data.qmd
       - text: "Blog"
         href: https://paolobosetti.quarto.pub/blog/index.html
