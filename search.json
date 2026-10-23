@@ -14,6 +14,13 @@
     "text": "statisticalc\nHeader-only C++20 running statistics: a rolling (optionally unlimited) window of observations with descriptive statistics maintained by recursion formulas and inferential statistics (t-test, variance test, and their two-sample counterparts) computed on top of them.\n\nhttps://github.com/pbosetti/statisticalc"
   },
   {
+    "objectID": "repos.html#complot.",
+    "href": "repos.html#complot.",
+    "title": "Projects and repositories",
+    "section": "complot.",
+    "text": "complot.\nReal-time plots driven from the shell to a GUI, loosely inspired by the grammar of graphics. Every plot is its own window (a small GUI process). Fast, portable compact. Can do time series, traces, 2-D and 3-D, histograms. Written in Rust.\n\nhttps://github-com/pbosetti/complot"
+  },
+  {
     "objectID": "repos.html#slidingdft",
     "href": "repos.html#slidingdft",
     "title": "Projects and repositories",
@@ -109,6 +116,6 @@
     "href": "index.html#analisi-dei-dati-e-statistica-adas",
     "title": "Teaching Stuff",
     "section": "Analisi dei Dati e Statistica (ADAS) 🇮🇹",
-    "text": "Analisi dei Dati e Statistica (ADAS) 🇮🇹\nCorso per la Laurea triennale in Ingegneria Industriale, tenuto in italiano\n\nIndice con tutte le slide del corso\nEsperimento virtuale: taratura di una bilancia a due piatti\n\n\n\n\n\n\n\nImportantContinuous updates!\n\n\n\nPlease note that the material is constantly updated. If you are interested in a specific topic, please check the last update (i.e., refresh your browser!)"
+    "text": "Analisi dei Dati e Statistica (ADAS) 🇮🇹\nCorso per la Laurea triennale in Ingegneria Industriale, tenuto in italiano\n\nIndice con tutte le slide del corso\n\n\n\n\n\n\n\nImportantContinuous updates!\n\n\n\nPlease note that the material is constantly updated. If you are interested in a specific topic, please check the last update (i.e., refresh your browser!)"
   }
 ]

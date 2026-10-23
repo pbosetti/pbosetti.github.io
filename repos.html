@@ -96,49 +96,53 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./repos.html" aria-current="page"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-adas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">ADAS</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-adas">    
         <li>
-    <a class="dropdown-item" href="./teaching_site/slides/ADAS">
+    <a class="dropdown-item" href="./ADAS">
  <span class="dropdown-text">Contenuti</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./teaching_site/slides/ADAS/0-intro.html">
+    <a class="dropdown-item" href="./ADAS/0-intro.html">
  <span class="dropdown-text">Intro</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./teaching_site/slides/ADAS/1-statistica.html">
+    <a class="dropdown-item" href="./ADAS/1-statistica.html">
  <span class="dropdown-text">Statistica</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./teaching_site/slides/ADAS/2-R-intro.html">
+    <a class="dropdown-item" href="./ADAS/2-R-intro.html">
  <span class="dropdown-text">Linguaggio R</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./teaching_site/slides/ADAS/3-regressione.html">
+    <a class="dropdown-item" href="./ADAS/3-regressione.html">
  <span class="dropdown-text">Regressione</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./teaching_site/slides/ADAS/4-bootstrap.html">
+    <a class="dropdown-item" href="./ADAS/4-bootstrap.html">
  <span class="dropdown-text">Bootstrap</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./teaching_site/slides/ADAS/5-misura.html">
+    <a class="dropdown-item" href="./ADAS/5-misura.html">
  <span class="dropdown-text">Misura</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./teaching_site/slides/ADAS/6-DoE.html">
+    <a class="dropdown-item" href="./ADAS/6-DoE.html">
  <span class="dropdown-text">Design of Experiments</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./teaching_site/slides/ADAS/7-serie_temporali.html">
+    <a class="dropdown-item" href="./ADAS/7-serie_temporali.html">
  <span class="dropdown-text">Serie temporali</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./teaching_site/slides/ADAS/8-strumenti.html">
+    <a class="dropdown-item" href="./ADAS/8-strumenti.html">
  <span class="dropdown-text">Strumenti di misura</span></a>
   </li>  
     </ul>
@@ -174,10 +178,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="./repos.html" aria-current="page"> 
-<span class="menu-text">Repos</span></a>
-  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./data.html"> 
 <span class="menu-text">Example Data</span></a>
@@ -222,6 +222,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#statistics-and-data-processing" id="toc-statistics-and-data-processing" class="nav-link" data-scroll-target="#statistics-and-data-processing">Statistics and data processing</a>
   <ul class="collapse">
   <li><a href="#statisticalc" id="toc-statisticalc" class="nav-link" data-scroll-target="#statisticalc">statisticalc</a></li>
+  <li><a href="#complot." id="toc-complot." class="nav-link" data-scroll-target="#complot.">complot.</a></li>
   <li><a href="#slidingdft" id="toc-slidingdft" class="nav-link" data-scroll-target="#slidingdft">SlidingDFT</a></li>
   <li><a href="#kalman" id="toc-kalman" class="nav-link" data-scroll-target="#kalman">kalman</a></li>
   <li><a href="#goertzel" id="toc-goertzel" class="nav-link" data-scroll-target="#goertzel">goertzel</a></li>
@@ -283,6 +284,13 @@ ul.task-list li input[type="checkbox"] {
 <p>Header-only C++20 running statistics: a rolling (optionally unlimited) window of observations with descriptive statistics maintained by recursion formulas and inferential statistics (t-test, variance test, and their two-sample counterparts) computed on top of them.</p>
 <ul>
 <li><a href="https://github.com/pbosetti/statisticalc" target="_blank_">https://github.com/pbosetti/statisticalc</a></li>
+</ul>
+</section>
+<section id="complot." class="level2">
+<h2 class="anchored" data-anchor-id="complot.">complot.</h2>
+<p>Real-time plots driven from the shell to a GUI, loosely inspired by the grammar of graphics. Every plot is its own window (a small GUI process). Fast, portable compact. Can do time series, traces, 2-D and 3-D, histograms. Written in Rust.</p>
+<ul>
+<li><a href="https://github-com/pbosetti/complot" target="_blank_">https://github-com/pbosetti/complot</a></li>
 </ul>
 </section>
 <section id="slidingdft" class="level2">
