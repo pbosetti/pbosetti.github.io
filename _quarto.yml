@@ -14,8 +14,8 @@ website:
   #   palette: light
   navbar:
     left:
-      - text: "Projects"
-        href: repos.qmd
+      - text: "Teaching"
+        href: teaching.qmd
       - text: ADAS
         menu:
           - href: /ADAS

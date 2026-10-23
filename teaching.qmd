@@ -1,0 +1,39 @@
+---
+title: "Teaching Stuff"
+date-modified: "`{r} Sys.time()`"
+date-format: "YYYYMMDD"
+engine: knitr
+---
+
+
+At the [Department of Industrial Engineering of the University of Trento](https://dii.unitn.it), I am teaching master courses (in English) and undergraduate courses (in Italian). Most of the teaching material used in these courses is available here.
+
+## Digital Manufacturing (DigMan) 🇬🇧
+
+Course for the Master Degree in Mechatronics Engineering, given in English
+
+- [Introduction](https://pbosetti.github.io/DigMan/0-intro.html){target="DigMan"}
+- [Processes and machine tools](https://pbosetti.github.io/DigMan/1-machine_tools.html){target="DigMan"}
+- [Personal project: Tool Radius Compensation](https://pbosetti.github.io/DigMan/2-trc.html){target="DigMan"}
+- GitHub code repo: <https://github.com/pbosetti/cncpp>{target="_blank"}
+
+## Design of Precision Systems (DPS) 🇬🇧
+
+Course for the Master Degree in Mechatronics Engineering, given in English
+  
+- Lesson on [K-Fold Cross Validation](/teaching_site/slides/ADAS/kfold.html){target="_blank"} (also [as a document](kfold.html))
+
+
+## Analisi dei Dati e Statistica (ADAS) 🇮🇹
+
+Corso per la Laurea triennale in Ingegneria Industriale, tenuto in italiano
+
+- Indice con tutte le [slide del corso](/ADAS/index.html)
+  
+
+:::callout-important
+## Continuous updates!
+
+Please note that the material is **constantly updated**. If you are interested in a specific topic, please check the last update (i.e., refresh your browser!)
+:::
+
