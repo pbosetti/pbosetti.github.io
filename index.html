@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Paolo Bosetti">
 
-<title>Teaching Stuff – Paolo Bosetti</title>
+<title>Projects and repositories – Paolo Bosetti</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -96,8 +97,8 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./repos.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-adas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -221,9 +222,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#digital-manufacturing-digman" id="toc-digital-manufacturing-digman" class="nav-link active" data-scroll-target="#digital-manufacturing-digman">Digital Manufacturing (DigMan) 🇬🇧</a></li>
-  <li><a href="#design-of-precision-systems-dps" id="toc-design-of-precision-systems-dps" class="nav-link" data-scroll-target="#design-of-precision-systems-dps">Design of Precision Systems (DPS) 🇬🇧</a></li>
-  <li><a href="#analisi-dei-dati-e-statistica-adas" id="toc-analisi-dei-dati-e-statistica-adas" class="nav-link" data-scroll-target="#analisi-dei-dati-e-statistica-adas">Analisi dei Dati e Statistica (ADAS) 🇮🇹</a></li>
+  <li><a href="#mads---multi-agent-distributed-system" id="toc-mads---multi-agent-distributed-system" class="nav-link active" data-scroll-target="#mads---multi-agent-distributed-system">MADS - Multi-Agent Distributed System</a></li>
+  <li><a href="#statistics-and-data-processing" id="toc-statistics-and-data-processing" class="nav-link" data-scroll-target="#statistics-and-data-processing">Statistics and data processing</a>
+  <ul class="collapse">
+  <li><a href="#statisticalc" id="toc-statisticalc" class="nav-link" data-scroll-target="#statisticalc">statisticalc</a></li>
+  <li><a href="#complot." id="toc-complot." class="nav-link" data-scroll-target="#complot.">complot.</a></li>
+  <li><a href="#slidingdft" id="toc-slidingdft" class="nav-link" data-scroll-target="#slidingdft">SlidingDFT</a></li>
+  <li><a href="#kalman" id="toc-kalman" class="nav-link" data-scroll-target="#kalman">kalman</a></li>
+  <li><a href="#goertzel" id="toc-goertzel" class="nav-link" data-scroll-target="#goertzel">goertzel</a></li>
+  <li><a href="#adas.utils-r-package" id="toc-adas.utils-r-package" class="nav-link" data-scroll-target="#adas.utils-r-package">adas.utils (R package)</a></li>
+  <li><a href="#mdbplyr-r-package" id="toc-mdbplyr-r-package" class="nav-link" data-scroll-target="#mdbplyr-r-package">mdbplyr (R package)</a></li>
+  </ul></li>
+  <li><a href="#arduino" id="toc-arduino" class="nav-link" data-scroll-target="#arduino">Arduino</a></li>
+  <li><a href="#utilities" id="toc-utilities" class="nav-link" data-scroll-target="#utilities">Utilities</a></li>
   </ul>
 </nav>
     </div>
@@ -232,19 +243,25 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Teaching Stuff</h1>
+<h1 class="title">Projects and repositories</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Paolo Bosetti </p>
+          </div>
+  </div>
     
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">20261023</p>
+      <p class="date-modified">Invalid Date</p>
     </div>
   </div>
     
@@ -255,56 +272,86 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>At the <a href="https://dii.unitn.it">Department of Industrial Engineering of the University of Trento</a>, I am teaching master courses (in English) and undergraduate courses (in Italian). Most of the teaching material used in these courses is available here.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you are a student of the University of Trento, note that this is NOT the main support site: look at the <a href="https://didatticaonline.unitn.it/dol/">Moodle platform</a> instead.</p>
-</div>
-</div>
-<section id="digital-manufacturing-digman" class="level2">
-<h2 class="anchored" data-anchor-id="digital-manufacturing-digman">Digital Manufacturing (DigMan) 🇬🇧</h2>
-<p>Course for the Master Degree in Mechatronics Engineering, given in English</p>
+<section id="mads---multi-agent-distributed-system" class="level1">
+<h1>MADS - Multi-Agent Distributed System</h1>
+<p>Currently, my mostive project is <a href="https://github.com/pbosetti/MADS" target="mads">MADS</a>, a multi-agent distributed system dor collecting, processing and consuming data in a IoT network of interconnected devices.</p>
 <ul>
-<li><a href="https://pbosetti.github.io/DigMan/0-intro.html" target="DigMan">Introduction</a></li>
-<li><a href="https://pbosetti.github.io/DigMan/1-machine_tools.html" target="DigMan">Processes and machine tools</a></li>
-<li><a href="https://pbosetti.github.io/DigMan/2-trc.html" target="DigMan">Personal project: Tool Radius Compensation</a></li>
-<li>GitHub code repo: <a href="https://github.com/pbosetti/cncpp" target="_blank">https://github.com/pbosetti/cncpp</a></li>
+<li>Main repo: <a href="https://github.com/pbosetti/MADS" target="mads">on GitHub</a></li>
+<li>Guides and documentation: <a href="https://mads-net.github.io" target="mads">mads-net.github.io</a></li>
+<li>Plugins and other MADS ecosystem components: <a href="https://github.com/mads-net/" target="mads">MADS-Net repos</a></li>
 </ul>
 </section>
-<section id="design-of-precision-systems-dps" class="level2">
-<h2 class="anchored" data-anchor-id="design-of-precision-systems-dps">Design of Precision Systems (DPS) 🇬🇧</h2>
-<p>Course for the Master Degree in Mechatronics Engineering, given in English</p>
+<section id="statistics-and-data-processing" class="level1">
+<h1>Statistics and data processing</h1>
+<section id="statisticalc" class="level2">
+<h2 class="anchored" data-anchor-id="statisticalc">statisticalc</h2>
+<p>Header-only C++20 running statistics: a rolling (optionally unlimited) window of observations with descriptive statistics maintained by recursion formulas and inferential statistics (t-test, variance test, and their two-sample counterparts) computed on top of them.</p>
 <ul>
-<li>Lesson on <a href="./teaching_site/slides/ADAS/kfold.html" target="_blank">K-Fold Cross Validation</a> (also <a href="kfold.html">as a document</a>)</li>
+<li><a href="https://github.com/pbosetti/statisticalc" target="_blank_">https://github.com/pbosetti/statisticalc</a></li>
 </ul>
 </section>
-<section id="analisi-dei-dati-e-statistica-adas" class="level2">
-<h2 class="anchored" data-anchor-id="analisi-dei-dati-e-statistica-adas">Analisi dei Dati e Statistica (ADAS) 🇮🇹</h2>
-<p>Corso per la Laurea triennale in Ingegneria Industriale, tenuto in italiano</p>
+<section id="complot." class="level2">
+<h2 class="anchored" data-anchor-id="complot.">complot.</h2>
+<p>Real-time plots driven from the shell to a GUI, loosely inspired by the grammar of graphics. Every plot is its own window (a small GUI process). Fast, portable compact. Can do time series, traces, 2-D and 3-D, histograms. Written in Rust.</p>
 <ul>
-<li>Indice con tutte le <a href="./ADAS/index.html">slide del corso</a></li>
+<li><a href="https://github-com/pbosetti/complot" target="_blank_">https://github-com/pbosetti/complot</a></li>
 </ul>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Continuous updates!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Please note that the material is <strong>constantly updated</strong>. If you are interested in a specific topic, please check the last update (i.e., refresh your browser!)</p>
-</div>
-</div>
+</section>
+<section id="slidingdft" class="level2">
+<h2 class="anchored" data-anchor-id="slidingdft">SlidingDFT</h2>
+<p><code>SlidingDFT</code> is a small C++20 library that maintains a sliding discrete Fourier transform over a fixed-size window of real-valued samples. Updating the DFT is done in O(1) time, and the library is designed to be used in real-time applications.</p>
+<ul>
+<li><a href="https://github.com/pbosetti/SlidingDFT" target="_blank_">https://github.com/pbosetti/SlidingDFT</a></li>
+</ul>
+</section>
+<section id="kalman" class="level2">
+<h2 class="anchored" data-anchor-id="kalman">kalman</h2>
+<p>A fast, header-only C++20 library for Kalman filtering — built on Eigen, with zero hand-rolled linear algebra and zero install friction.</p>
+<p>Define a state vector, a system model, and a measurement model, and you have a working state estimator in a few dozen lines. The library does the heavy lifting (sigma points, Jacobian propagation, square-root covariance updates) behind a small, strongly-typed interface.</p>
+<ul>
+<li><a href="https://github.com/pbosetti/kalman" target="_blank_">https://github.com/pbosetti/kalman</a></li>
+</ul>
+</section>
+<section id="goertzel" class="level2">
+<h2 class="anchored" data-anchor-id="goertzel">goertzel</h2>
+<p><code>goertzel</code> is a small multi-language package around the Goertzel algorithm. The Goertzel algorithm is a digital signal processing technique for efficiently evaluating individual terms of the discrete Fourier transform (DFT). It is particularly useful for detecting specific frequency components in a signal, making it suitable for applications such as tone detection and spectral analysis.</p>
+<ul>
+<li><a href="https://github.com/pbosetti/goertzel" target="_blank_">https://github.com/pbosetti/goertzel</a></li>
+</ul>
+</section>
+<section id="adas.utils-r-package" class="level2">
+<h2 class="anchored" data-anchor-id="adas.utils-r-package">adas.utils (R package)</h2>
+<p>The goal of adas.utils is to provide some utility functions to be used in the course Analysis of Data and Statistics (ADAS).</p>
+<ul>
+<li><a href="https://github.com/pbosetti/adas.utils" target="_blank_">https://github.com/pbosetti/adas.utils</a></li>
+</ul>
+</section>
+<section id="mdbplyr-r-package" class="level2">
+<h2 class="anchored" data-anchor-id="mdbplyr-r-package">mdbplyr (R package)</h2>
+<p><code>mdbplyr</code> is the MongoDB version of <code>dbplyr</code>, the package for interacting with SQL databases. It provides a disciplined dplyr-style interface for read-only analytical MongoDB queries. Queries stay lazy, compile into MongoDB aggregation pipelines, and only execute at <code>collect()</code>.</p>
+<ul>
+<li><a href="https://github.com/pbosetti/mdbplyr" target="_blank_">https://github.com/pbosetti/mdbplyr</a></li>
+</ul>
+</section>
+</section>
+<section id="arduino" class="level1">
+<h1>Arduino</h1>
+<p>The followings are my Arduino-related repositories, mainly for educational purposes.</p>
+<ul>
+<li><a href="https://github.com/pbosetti/ArduinoRpc" target="_blank_">https://github.com/pbosetti/ArduinoRpc</a>: Arduino RPC library for Arduino boards and ESP32/ESP8266</li>
+<li><a href="https://github.com/pbosetti/ArduinoDriver" target="_blank_">https://github.com/pbosetti/ArduinoDriver</a>: Turn a compatible Arduino board to a USB-class I/O device, plus its companion userland driver. Acquire signals at up to 30 kHz!</li>
+</ul>
+</section>
+<section id="utilities" class="level1">
+<h1>Utilities</h1>
+<ul>
+<li><a href="https://github.com/pbosetti/SigGen" target="_blank_">https://github.com/pbosetti/SigGen</a>: Signal generator class.</li>
+<li><a href="https://github.com/pbosetti/Expressionist" target="_blank_">https://github.com/pbosetti/Expressionist</a>: A small C++20 library for parsing and evaluating mathematical expressions within a JSON object.</li>
+<li><a href="https://github.com/pbosetti/gv2fsm" target="_blank_">https://github.com/pbosetti/gv2fsm</a>: A small C++20 library and CLI tool for converting a Graphviz graph into a finite state machine (FSM) C++ class.</li>
+<li><a href="https://github.com/pbosetti/pugg" target="_blank_">https://github.com/pbosetti/pugg</a>: A C++ class for implementing plugins that can be loaded at runtime via <code>dlopen</code>.</li>
+<li><a href="https://github.com/pbosetti/EmbedR" target="_blank_">https://github.com/pbosetti/EmbedR</a>: A small C++20 library for embedding R scripts into a C++ program, with automatic data exchange between the two languages.</li>
+<li><a href="https://github.com/pbosetti/cppy3" target="_blank_">https://github.com/pbosetti/cppy3</a>: Minimalistic library for embedding CPython 3.x into a C++ application. Lightweight, simple, and clean alternative to heavy <code>boost.python</code>. No additional dependencies. Cross-platform – Linux, macOS, and Windows are supported.</li>
+</ul>
 
 
 </section>
